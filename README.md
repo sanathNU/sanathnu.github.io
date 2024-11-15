@@ -1,6 +1,7 @@
 # Sanath's Academic Github page!
 
-Here be dragons! My academic page
+My academic page.
+Here be dragons! 
 
 ## Statement
 
