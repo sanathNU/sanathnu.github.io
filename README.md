@@ -1,7 +1,6 @@
-# sanathnu.github.io
+# Sanath's Academic Github page!
 
-Here is **Sanath N U**. This is the repository for my academic website.
-
+Here be dragons! My academic page
 
 ## Statement
 

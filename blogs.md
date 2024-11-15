@@ -4,4 +4,4 @@ permalink: /blogs/index.html
 title: Blogs
 ---
 
-A wandering sea of emptiness
+A wandering sea of emptiness!
