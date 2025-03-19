@@ -5,10 +5,10 @@ title: Hobbies
 ---
 
 # Hobbies
-To be is to learn and know things.
+To be is to learn.
 
 ## Movies and TV
-I'm broadly interested in the visual medium, and how it can be used to impact ideas on one's mind. I've been 
+I'm broadly interested in the visual medium, and how it can be used to impact ideas on one's mind 
 
 ## Books
 I like books and how they positively influence the way I think. I my interests vary from science, to philosophy, to history, and on it goes. 

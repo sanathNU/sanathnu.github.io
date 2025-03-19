@@ -16,7 +16,7 @@ owner:
   github: sanathNU
   linkedin: sanath-n-u-b38b5420b
 
-  # facebook: caihanlin2002
+  # facebook: 
   # instagram: lancecai2002
   # lastfm:
   # tumblr:
@@ -39,6 +39,8 @@ links:
     url: /blogs/
   - title: Hobbies
     url: /hobbies/
+  - title: Notes
+    url: /notes/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: Asia/Kolkata
