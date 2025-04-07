@@ -4,4 +4,5 @@ permalink: /blogs/index.html
 title: Blogs
 ---
 
-A wandering sea of emptiness!
+### Opinions/Rants
+- [CKA Certification](/blogs/web/CKA.html)

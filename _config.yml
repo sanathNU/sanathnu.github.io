@@ -8,7 +8,7 @@ url: https://sanathnu.github.io/
 owner:
   name: Sanath N U
   avatar: fav.png
-  # bio: Two roads diverged in woods, I took the one less traveled by.
+  bio: Two roads diverged in woods, I took the one less traveled by.
   email: sanathn.upadhyaya@gmail.com
   # cv: https://caihanlin.com/file/CV-HanlinCAI.pdf
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
@@ -17,7 +17,7 @@ owner:
   linkedin: sanath-n-u-b38b5420b
 
   # facebook: 
-  # instagram: lancecai2002
+  # instagram: <good boy>
   # lastfm:
   # tumblr:
   # For Google Authorship https://plus.google.com/authorship
@@ -71,10 +71,10 @@ kramdown:
 
 
 # disqus settings:
-disqus:
-  shortname: lancecai
+# disqus:
+#   shortname: <no one now>
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "minimal-mistakes.sublime-project", "minimal-mistakes.sublime-workspace"]
 
-# Latest update in 2023/12/10 by Hanlin Cai.
+# Latest update in 2025/04/01 by Sanath N U
