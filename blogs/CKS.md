@@ -29,7 +29,8 @@ But no. What it really taught me was how to apply some best practices from the L
 
 Don't get me wrong, I enjoyed this course, I really did. I didn't take [Mumshad's CKS course](https://kodekloud.com/courses/certified-kubernetes-security-specialist-cks) (in retrospect, maybe I should have) But this godsend [video](https://www.youtube.com/watch?v=d9xfB5qaOfg) of the Killer Shell's online course saved my day. I think I didn't have as much practice as I wanted, but yeah, somehow I was able to scrap through.
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/d9xfB5qaOfg" frameborder="0" allowfullscreen></iframe>
+<!-- <iframe width="420" height="315" src="http://www.youtube.com/embed/d9xfB5qaOfg" frameborder="0" allowfullscreen></iframe> -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/d9xfB5qaOfg?si=rzgDZ21skAB7UbXv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 Also, the Youtube course DOES NOT COVER CILIUM. You had no idea how much docs I had to parse through to get a feel of the tool. A thousand docs can’t beat one working example.
