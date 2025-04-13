@@ -5,7 +5,10 @@ title: CKA
 ---
 # CKA Certification: Insights and Experiences
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/2109px-Kubernetes_logo_without_workmark.svg.png){: width="200px" height="100px" .align-center}
+<!-- ![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/2109px-Kubernetes_logo_without_workmark.svg.png){: width="200px" height="100px" .align-center}
+ -->
+
+![Badge](/images/resources/CKA_badge.png){: .align-center}
 
 
 ## Introduction
