@@ -6,7 +6,7 @@ title: "CKS Certification: Thoughts"
 
 #  CKS Certification: Thoughts
 
-![Badge](/images/resources/CKS_badge_1.png){: .align-center}
+![Badge](/images/resources/CKS/CKS_badge_1.png){: .align-center}
 
 
 <!-- <figure  class="align-center" >
@@ -53,7 +53,7 @@ Besides my expectations? The idea that this cert was about _security systems_ .
 I expected this to be about learning about threat modelling, defence in depth, compartmentalisation , maybe maybe some read teaming. What I got instead was....an applied patchwork.
 
 Case in point: one of the exam scenarios pulls out the same tired example of the [Tesla Hack](https://www.wired.com/story/cryptojacking-tesla-amazon-cloud/). I’ve seen that example so many times (while studying) it might as well be part of the CKS welcome banner. In any halfway decent org today, you're not just flipping admin access like a switch. **You’re filing a Jira ticket, then waiting three business days while the approval chain makes its slow pilgrimage through the temple of compliance.** RBAC is standard hygiene now, not some cutting-edge revelation.
-![Tesla hack!](/images/resources/telsa_hack.png)
+![Tesla hack!](/images/resources/CKS/telsa_hack.png)
 
 <br>
 The certification  isn't about **understanding security** in the context of cloud (of which k8s is a huge part now), but about applying pre-baked controls in a time-boxed fashion. You don’t need to *understand* security concepts but just need to memorize which command disables privilege escalation and how to configure a PodSecurityPolicy (or whatever’s [replacing it](https://kubernetes.io/blog/2021/04/06/podsecuritypolicy-deprecation-past-present-and-future/) this week).[^1]
@@ -90,7 +90,7 @@ Would I recommend it to someone expecting a security deep dive? Absolutely not, 
 #### Mindmap
 Here's a very crude mindmap of what notes I summarized right before the exam. Might be helpful for visual folks. 
 
-![I don't know how Obsidian canvas works man, it's just weird! ](/images/resources/CKS_mindmap.png)
+![I don't know how Obsidian canvas works man, it's just weird! ](/images/resources/CKS/CKS_mindmap.png)
 If the font is too hard to read, download the image maybe?
 
 #### Github links
