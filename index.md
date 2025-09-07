@@ -23,9 +23,9 @@ If you are interested in working with me, I am always open to discussions and co
 
 ## Research Interests
 
-At Northeastern University, I’m currently exploring cryptography and security in distributed systems. While I’m still in the early stages of my research journey, I’m particularly drawn to studying how cryptographic protocols can be integrated into large-scale distributed systems to ensure data security and system resilience. <br>
+At Northeastern University, I am currently researching the application of cryptographic protocols in distributed systems, focusing on enhancing data security and system resilience at scale.<br>
 
 
 Earlier, I had the opportunity to intern at **[IIT Dharwad](https://www.iitdh.ac.in/)** under the mentorship of **[Prof Rajeshkar K](https://www.iitdh.ac.in/rajshekar.k/index.html)**, where I worked on optimizing CPU instruction pipelines. This experience helped me build a solid foundation in system-level optimizations, which I now apply to building more secure and resilient distributed infrastructures.<br>
 
-While I’m still building my expertise, my aim is to deepen my knowledge in securing distributed systems and cryptographic protocols, and eventually contribute to the development of more resilient and secure infrastructure.
+I’m actively building expertise in securing distributed systems, with a goal to contribute to developing robust, high-performance, and secure infrastructures.
