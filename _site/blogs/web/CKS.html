@@ -15,15 +15,6 @@
 <title>CKS Certification: Thoughts &#8211; Sanath N U</title>
 
 
-<!-- Twitter Card and Open Graph meta -->
-<meta name="twitter:title" content="CKS Certification: Thoughts &#8211; Sanath N U">
-<meta name="twitter:description" content="#  CKS Certification: Thoughts![Badge](/images/resources/CKS/CKS_badge_1.png){: .align-center}## IntroductionAfter pa...">
-<meta name="twitter:creator" content="@HailEuler">
-
-<meta name="twitter:card" content="summary">
-<meta name="twitter:image:src" content="http://localhost:4000/images/default-thumb.png">
-<meta property="og:type" content="article">
-<meta property="og:image" content="http://localhost:4000/images/default-thumb.png">
 
 <meta property="og:locale" content="en_US">
 <meta property="og:title" content="CKS Certification: Thoughts &#8211; Sanath N U">
@@ -135,7 +126,7 @@
 
 
 
-<p style="text-indent:0;"><a href="https://twitter.com/HailEuler"><i class="icon-twitter"></i> Twitter</a></p>
+
 
 
 
@@ -216,7 +207,7 @@ That said, when it comes to CKS itself:</p>
 <img src="/images/resources/CKS/telsa_hack.png" alt="Tesla hack!" /></p>
 
 <p><br />
-The certification  isn’t about <strong>understanding security</strong> in the context of cloud (of which k8s is a huge part now), but about applying pre-baked controls in a time-boxed fashion. You don’t need to <em>understand</em> security concepts but just need to memorize which command disables privilege escalation and how to configure a PodSecurityPolicy (or whatever’s <a href="https://kubernetes.io/blog/2021/04/06/podsecuritypolicy-deprecation-past-present-and-future/">replacing it</a> this week).<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></p>
+The certification  isn’t about <strong>understanding security</strong> in the context of cloud (of which k8s is a huge part now), but about applying pre-baked controls in a time-boxed fashion. You don’t need to <em>understand</em> security concepts but just need to memorize which command disables privilege escalation and how to configure a PodSecurityPolicy (or whatever’s <a href="https://kubernetes.io/blog/2021/04/06/podsecuritypolicy-deprecation-past-present-and-future/">replacing it</a> this week).<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
 
 <p>Also: <strong>time limits are brutal</strong>. You don’t really have the luxury of pausing to understand why something works. I realized this in the trial exam on <a href="https://killercoda.com/killer-shell-cks">Killer Koda</a> which gave me a reality check. You apply what you practised, and you move on.</p>
 
@@ -225,7 +216,7 @@ The certification  isn’t about <strong>understanding security</strong> in the 
 <p>There <em>is</em> a bright side. Despite everything, the CKS does a few things well and they’re worth acknowledging.</p>
 <ul>
   <li><strong>Hands-on Realism:</strong> I enjoyed debugging more in CKS scenarios than in CKA. They reflect the kind of chaos I’ve seen in real world. Misbehaving pods, weird log outputs, tools falling silently, the whole shenanigans.</li>
-  <li><strong>Tooling Diversity:</strong> I liked the general exposure apart from the K8s ecosystem to the Linux environment. (Thought windows is out of the loop though<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup>). How audit logs , runtime security tooling, file monitoring and all are integrated into some tightly coupled linux tools (especially something like apparmour) is the right method.</li>
+  <li><strong>Tooling Diversity:</strong> I liked the general exposure apart from the K8s ecosystem to the Linux environment. (Thought windows is out of the loop though<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>). How audit logs , runtime security tooling, file monitoring and all are integrated into some tightly coupled linux tools (especially something like apparmour) is the right method.</li>
   <li><strong>A macroscopic attacker POV</strong>: I’ve done my fair share of red-team YouTube video binging and some thoughts like <a href="https://kubenomicon.com/Persistence/Malicious_admission_controller.html">security</a> in MutatingAdmissionWebhook and ValidatingAdmissionWebhook were something that genuinely I liked.</li>
 </ul>
 
@@ -276,10 +267,10 @@ If the font is too hard to read, download the image maybe?</p>
 
 <div class="footnotes" role="doc-endnotes">
   <ol>
-    <li id="fn:1">
+    <li id="fn:1" role="doc-endnote">
       <p>I found this very cool gitbook called <a href="https://kubenomicon.com/Kubenomicon.html#what-is-the-kubenomicon">The Kubenomicon</a> which was actually something that I liked. It gives you “knowledge to the cloud hacker”. I still have to read through it. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:2">
+    <li id="fn:2" role="doc-endnote">
       <p>I have absolutely zero k8s on windows experience. The security principles there should open another Pandora’s box. I’ll get into it maybe later in my career? <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
