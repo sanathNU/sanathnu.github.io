@@ -9,7 +9,7 @@ layout: page
 <br>
 Hey! I'm **Sanath**.<br>
 
-I'm currently a Masters Student in Computer Science at **[Nortehastern University](https://www.northeastern.edu/)**.
+I'm currently a Masters Student in Computer Science at **[Northeastern University](https://www.northeastern.edu/)**.
 
 Prior to this, I worked as a Cloud Engineer at **[Hewlett Packard Enterprise](https://www.hpe.com/in/en/home.html)**
 
