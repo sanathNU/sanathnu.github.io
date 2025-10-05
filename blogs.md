@@ -4,6 +4,6 @@ permalink: /blogs/index.html
 title: Blogs
 ---
 
-### Opinions/Rants
+### Technical Articles
 - [CKA Certification](/blogs/web/CKA.html)
 - [CKS Certification: Thoughts](/blogs/web/CKS.html)

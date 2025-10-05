@@ -13,7 +13,7 @@ I'm currently a Masters Student in Computer Science at **[Northeastern Universit
 
 Prior to this, I worked as a Cloud Engineer at **[Hewlett Packard Enterprise](https://www.hpe.com/in/en/home.html)**
 
-If you are interested in working with me, I am always open to discussions and collaborations. Feel free to reach out to me at my [mail](sanathn.upadhyaya@gmail.com).
+If you are interested in working with me, I am always open to discussions and collaborations. Feel free to reach out to me at my [mail](sanathn.upadhyaya@gmail.com). You can see what I'm working on over at the [projects page](/projects/).
 
 ---
 

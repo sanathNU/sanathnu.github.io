@@ -10,7 +10,6 @@ owner:
   avatar: fav.png
   bio: Two roads diverged in woods, I took the one less traveled by.
   email: sanathn.upadhyaya@gmail.com
-  # cv: https://caihanlin.com/file/CV-HanlinCAI.pdf
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   X: HailEuler
   github: sanathNU
@@ -39,11 +38,11 @@ links:
     url: /blogs/
   - title: Hobbies
     url: /hobbies/
-  - title: Notes
-    url: /notes/
+  - title: Projects
+    url: /projects/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: Asia/Kolkata
+timezone: America/New_York
 future: true
 highlighter: rouge
 # markdown: kramdown
