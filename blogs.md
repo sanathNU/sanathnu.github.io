@@ -1,9 +1,9 @@
 ---
 layout: page
-permalink: /blogs/index.html
-title: Blogs
+permalink: /blog/index.html
+title: Blog
 ---
 
 ### Technical Articles
-- [CKA Certification](/blogs/web/CKA.html)
-- [CKS Certification: Thoughts](/blogs/web/CKS.html)
+- [CKA Certification](/blog/web/CKA.html)
+- [CKS Certification: Thoughts](/blog/web/CKS.html)

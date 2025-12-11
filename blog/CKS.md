@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/web/CKS.html
+permalink: /blog/web/CKS.html
 title: "CKS Certification: Thoughts"
 ---
 

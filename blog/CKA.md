@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/web/CKA.html
+permalink: /blog/web/CKA.html
 title: CKA
 ---
 # CKA Certification: Insights and Experiences
