@@ -27,4 +27,4 @@ If you are interested in working with me, I am always open to discussions and co
 * Gained foundation in system-level optimizations that I now apply to secure and resilient distributed infrastructures.
 
 **Career Goal:**
-* Building expertise in securing distributed systems to contribute to developing robust, high-performance, and secure infrastructures.
+* To work at the intersection of distributed systems and applied cryptography, building cloud-scale infrastructure that remains secure under failure, attack, and scale, turning cryptographic theory into deployable, systems-level guarantees rather than academic artifacts.

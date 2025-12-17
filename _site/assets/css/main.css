@@ -480,3 +480,16 @@ body {
     left: 25%;
   }
 }
+
+/* =====================================================
+   SITE NAME STYLING - Make name larger than nav tabs
+   ===================================================== */
+
+.site-name {
+  font-size: 1.5em;  /* Increase size relative to nav */
+  letter-spacing: 0.05em;  /* Optional: adds slight spacing */
+}
+
+.site-name a {
+  font-weight: 700;
+}
