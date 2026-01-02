@@ -12,7 +12,6 @@ title: Exploring the Infinite Libraries
 
 ೨. **Exploring the Infinite Libraries**: You are here
 
-
 ೩. [Taming Infinity](/blog/web/Taming-Infinity.html): the mathematics of bijection
 
 ೪. [Engineering Infinity](/blog/web/Engineering-inf.html): Rust, WASM, and making it run

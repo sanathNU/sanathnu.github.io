@@ -17,5 +17,4 @@ title: Engineering Infinity
 
 ೪. **Engineering Infinity**: You are here
 
-
 ೫. [Reflections from Infinity](/blog/web/Reflections-inf.html): what I learned

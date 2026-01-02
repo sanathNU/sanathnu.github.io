@@ -14,7 +14,6 @@ title: Taming Infinity
 
 ೩. **Taming Infinity**: You are here
 
-
 ೪. [Engineering Infinity](/blog/web/Engineering-inf.html): Rust, WASM, and making it run
 
 ೫. [Reflections from Infinity](/blog/web/Reflections-inf.html): what I learned
