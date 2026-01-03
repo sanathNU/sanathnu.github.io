@@ -128,4 +128,6 @@ The library has been waiting for you.
 
 ---
 
-_Next: [Post 2 — Exploring the Infinite Libraries]_
+_Next: [Post 2 — Exploring the Infinite Libraries](/blog/web/Exploring-Infinity.html)_
+
+---
