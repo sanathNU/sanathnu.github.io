@@ -10,7 +10,7 @@ A collection of things I'm building or have built. I use these projects to learn
 
 ### Current Work
 
-**Akshara Mantapa: Infinite Kannada Text Library** · [GitHub](https://github.com/sanathNU/Akshara-Mantapa) · [Web Demo](/https://sanathnu.github.io/Akshara-Mantapa/)  
+**Akshara Mantapa: Infinite Kannada Text Library** · [GitHub](https://github.com/sanathNU/Akshara-Mantapa) · [Web Demo](https://sanathnu.github.io/Akshara-Mantapa/)  
 *Rust, WebAssembly, SvelteKit*  
 * Implemented a searchable infinite Kannada text corpus inspired by Borges’ [*Library of Babel*](https://en.wikipedia.org/wiki/The_Library_of_Babel).
 * Built a 57,324-symbol grapheme-cluster alphabet for Indic scripts using greedy longest-match segmentation.
