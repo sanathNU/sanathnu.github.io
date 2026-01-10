@@ -200,6 +200,13 @@
 
 <p>But somewhere in there is the exact description of your death. The cure for every disease. A perfect biography of someone who was never born. Every lie and every truth, indistinguishable from each other. All expressed by 29 characters.</p>
 
+<p><br /></p>
+
+<p><img src="/images/post_images/akshara_on_babel.png" alt="" style="display:block; margin-left:auto; margin-right:auto" />
+<em>Can you find the fun text?</em></p>
+
+<p><br /></p>
+
 <h3 id="the-theory">The Theory</h3>
 
 <p>You might think it’s just a trick, just a clever randomizer that generates a bunch of characters every time you browse. But no. It has “technically” mapped every possible sequence of words into a library that can run on your browser. Clever, no?</p>
@@ -225,6 +232,13 @@
 <h3 id="the-picture-library">The Picture Library</h3>
 
 <p>If the text library didn’t break your brain enough, Basile also built a picture library. Every possible image that can be rendered in a certain resolution. Every photograph that could ever be taken. Every face that will never exist.</p>
+
+<p><br /></p>
+
+<p><img src="/images/post_images/babelia.png" alt="" style="display:block; margin-left:auto; margin-right:auto" />
+<em>Face of Infinity</em></p>
+
+<p><br /></p>
 
 <p>→ <strong><a href="https://babelia.libraryofbabel.info">babelia.libraryofbabel.info</a></strong></p>
 
@@ -281,6 +295,13 @@
 
 <p>So an address might look like: <code class="language-plaintext highlighter-rouge">mandira.gode.patti.pustaka.puta</code>. For small enough addresses, the room name renders in Kannada script itself.</p>
 
+<p><br /></p>
+
+<p><img src="/images/post_images/hex_address.jpg" alt="" style="display:block; margin-left:auto; margin-right:auto" />
+<em>Structure of Address</em></p>
+
+<p><br /></p>
+
 <h3 id="why-400-characters">Why 400 Characters?</h3>
 
 <p>Basile’s library uses 3,200 characters per page. Mine uses only 400. Why?</p>
@@ -313,42 +334,51 @@
 
 <p>Let me show you what I mean:</p>
 
-<table>
-  <thead>
-    <tr>
-      <th>What you see</th>
-      <th>What’s happening</th>
-      <th>Code points</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>ಕ</td>
-      <td>consonant ka</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>ಕಾ</td>
-      <td>ka + aa matra</td>
-      <td>2 (ಕ + ಾ)</td>
-    </tr>
-    <tr>
-      <td>ಕ್ಕ</td>
-      <td>ka + halant + ka (gemination)</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>ಕ್ಷ</td>
-      <td>ka + halant + ṣa (conjunct)</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>ಕ್ರ</td>
-      <td>ka + halant + ra (with ra-kaara)</td>
-      <td>3</td>
-    </tr>
-  </tbody>
-</table>
+<div class="svete-grid">
+
+  <div class="svete-card">
+    <div class="svete-glyph">ಕ</div>
+    <div class="svete-text">
+      Simple consonant: ka
+    </div>
+  </div>
+
+  <div class="svete-card">
+    <div class="svete-glyph">ಕಾ</div>
+    <div class="svete-text">
+      Consonant + mātra: kā (ka + ā sign)
+    </div>
+  </div>
+
+  <div class="svete-card">
+    <div class="svete-glyph">ಕ್</div>
+    <div class="svete-text">
+      Consonant + halant: k (dead consonant)
+    </div>
+  </div>
+
+  <div class="svete-card">
+    <div class="svete-glyph">ಕ್ಷ</div>
+    <div class="svete-text">
+      Conjunct: kṣa (ka + halant + ṣa)
+    </div>
+  </div>
+
+  <div class="svete-card">
+    <div class="svete-glyph">ಕ್ಷಾ</div>
+    <div class="svete-text">
+      Conjunct + mātra: kṣā
+    </div>
+  </div>
+
+  <div class="svete-card">
+    <div class="svete-glyph">ಕ್ಷಂ</div>
+    <div class="svete-text">
+      Conjunct + mātra + modifier: kṣaṃ
+    </div>
+  </div>
+
+</div>
 
 <p>The character ಕಾ (kaa) looks like one letter. Your eyes read it as one. But underneath, it’s two code points holding hands: the consonant ಕ and the vowel sign ಾ. They combine visually but live separately in computer memory. This is how Indic scripts think, not in isolated atoms, but in relationships.</p>
 

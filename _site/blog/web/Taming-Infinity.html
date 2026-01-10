@@ -276,14 +276,11 @@
 
 <p>As I explored these options, a pattern emerged. I started calling it the <strong>Babel Trilemma</strong><sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>          Short Address
-              /\
-             /  \
-            /    \
-           /      \
-          /________\
-   Invertibility    Full Coverage
-</code></pre></div></div>
+<p><br /></p>
+
+<p><img src="/images/post_images/babel_trilemma.png" alt="" style="display:block; margin-left:auto; margin-right:auto" /></p>
+
+<p><br /></p>
 
 <p>You can have at most two of three:</p>
 
@@ -295,9 +292,17 @@
 
 <p>Pick two.</p>
 
-<p>-&gt; If you want short addresses and full coverage, you lose invertibility. You’d need a lookup table the size of infinity. (And you’d be going up against the <a href="https://en.wikipedia.org/wiki/Pigeonhole_principle">pigeonhole principle</a>). For example, the “seed” solution:
--&gt; If you want short addresses and invertibility, you lose full coverage. You can only map a subset of possible texts.
--&gt; If you want invertibility and full coverage, you lose short addresses. The address must encode enough information to reconstruct the content, which means it grows with the content space.</p>
+<ul>
+  <li>
+    <p>If you want short addresses and full coverage, you lose invertibility. You’d need a lookup table the size of infinity. (And you’d be going up against the <a href="https://en.wikipedia.org/wiki/Pigeonhole_principle">pigeonhole principle</a>).</p>
+  </li>
+  <li>
+    <p>If you want short addresses and invertibility, you lose full coverage. You can only map a subset of possible texts.</p>
+  </li>
+  <li>
+    <p>If you want invertibility and full coverage, you lose short addresses. The address must encode enough information to reconstruct the content, which means it grows with the content space.</p>
+  </li>
+</ul>
 
 <p>I chose invertibility and full coverage. I gave up short addresses. I wanted true infinity, not some make-believe browser-friendly version.</p>
 
@@ -308,13 +313,12 @@
 
 <p>Before diving into the math, let me explain how addresses actually work in ಅಕ್ಷರ ಮಂಟಪ. I use two representations: <strong>hierarchical</strong> (for us pleb humans) and <strong>raw</strong> (for the backend).</p>
 
-<p>[IMAGE: address-system-diagram — showing the relationship between hierarchical and raw addresses]</p>
+<p><br /></p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-│  DISPLAY FORMAT:                                                           │
-│    "ಮಂದಿರದಹೆಸರು...".ಗೋಡೆ.ಪಟ್ಟಿ.ಪುಸ್ತಕ.ಪುಟ                                     │
-│     └──4 clusters──┘  1-4  1-5   1-32   1-410                            │
-</code></pre></div></div>
+<p><img src="/images/post_images/address_differences.png" alt="" style="display:block; margin-left:auto; margin-right:auto" />
+<em>Address Equivalence</em></p>
+
+<p><br /></p>
 
 <p>The hierarchical address looks like <code class="language-plaintext highlighter-rouge">mandira.gode.patti.pustaka.puta</code> (room.wall.shelf.book.page). It’s readable, it maps to Borges’ vision, and it gives you a sense of location in the library. 
 <br /></p>

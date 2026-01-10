@@ -44,6 +44,13 @@ Click "Browse" and then "Random." You'll get a page. It will look like nonsense.
 
 But somewhere in there is the exact description of your death. The cure for every disease. A perfect biography of someone who was never born. Every lie and every truth, indistinguishable from each other. All expressed by 29 characters.
 
+<br>
+
+![](/images/post_images/akshara_on_babel.png){:style="display:block; margin-left:auto; margin-right:auto"}
+*Can you find the fun text?*
+
+<br>
+
 ### The Theory
 
 You might think it's just a trick, just a clever randomizer that generates a bunch of characters every time you browse. But no. It has "technically" mapped every possible sequence of words into a library that can run on your browser. Clever, no?
@@ -67,6 +74,13 @@ This is invertibility. Given any content, you can find its address. Given any ad
 ### The Picture Library
 
 If the text library didn't break your brain enough, Basile also built a picture library. Every possible image that can be rendered in a certain resolution. Every photograph that could ever be taken. Every face that will never exist.
+
+<br>
+
+![](/images/post_images/babelia.png){:style="display:block; margin-left:auto; margin-right:auto"}
+*Face of Infinity*
+
+<br>
 
 → **[babelia.libraryofbabel.info](https://babelia.libraryofbabel.info)**
 
@@ -95,6 +109,13 @@ I tried to stay faithful to Borges' original vision. The library is organized hi
 | ಪುಟ | puta | page |
 
 So an address might look like: `mandira.gode.patti.pustaka.puta`. For small enough addresses, the room name renders in Kannada script itself.
+
+<br>
+
+![](/images/post_images/hex_address.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+*Structure of Address*
+
+<br>
 
 ### Why 400 Characters?
 
@@ -128,13 +149,54 @@ What looks like a single "letter" in Kannada is often a combination of multiple 
 
 Let me show you what I mean:
 
-| What you see | What's happening | Code points |
-|--------------|------------------|-------------|
-| ಕ | consonant ka | 1 |
-| ಕಾ | ka + aa matra | 2 (ಕ + ಾ) |
-| ಕ್ಕ | ka + halant + ka (gemination) | 3 |
-| ಕ್ಷ | ka + halant + ṣa (conjunct) | 3 |
-| ಕ್ರ | ka + halant + ra (with ra-kaara) | 3 |
+
+<div class="svete-grid">
+
+  <div class="svete-card">
+    <div class="svete-glyph">ಕ</div>
+    <div class="svete-text">
+      Simple consonant: ka
+    </div>
+  </div>
+
+  <div class="svete-card">
+    <div class="svete-glyph">ಕಾ</div>
+    <div class="svete-text">
+      Consonant + mātra: kā (ka + ā sign)
+    </div>
+  </div>
+
+  <div class="svete-card">
+    <div class="svete-glyph">ಕ್</div>
+    <div class="svete-text">
+      Consonant + halant: k (dead consonant)
+    </div>
+  </div>
+
+  <div class="svete-card">
+    <div class="svete-glyph">ಕ್ಷ</div>
+    <div class="svete-text">
+      Conjunct: kṣa (ka + halant + ṣa)
+    </div>
+  </div>
+
+  <div class="svete-card">
+    <div class="svete-glyph">ಕ್ಷಾ</div>
+    <div class="svete-text">
+      Conjunct + mātra: kṣā
+    </div>
+  </div>
+
+  <div class="svete-card">
+    <div class="svete-glyph">ಕ್ಷಂ</div>
+    <div class="svete-text">
+      Conjunct + mātra + modifier: kṣaṃ
+    </div>
+  </div>
+
+</div>
+
+
 
 The character ಕಾ (kaa) looks like one letter. Your eyes read it as one. But underneath, it's two code points holding hands: the consonant ಕ and the vowel sign ಾ. They combine visually but live separately in computer memory. This is how Indic scripts think, not in isolated atoms, but in relationships.
 

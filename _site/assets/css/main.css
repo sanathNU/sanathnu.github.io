@@ -171,6 +171,33 @@ p code{font-size:80%;white-space:nowrap;margin:0 2px;padding:0 5px;border:1px so
 .hidden-desktop{display:none !important;}
 /*@media (max-width:767px){.visible-phone{display:inherit !important;} .hidden-phone{display:none !important;} .hidden-desktop{display:inherit !important;} .visible-desktop{display:none !important;}}@media (min-width:768px) and (max-width:979px){.visible-tablet{display:inherit !important;} .hidden-tablet{display:none !important;} .hidden-desktop{display:inherit !important;} .visible-desktop{display:none !important ;}}hr{display:block;margin:1em 0;padding:0;height:1px;border:0;border-top:1px solid #ccc;border-bottom:1px solid #fff;}*/
 /* Update in 28 Aug 2023 by Hanlin */
+.svete-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.svete-card {
+  border: 1px solid #ddd;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  background: #fff;
+}
+
+.svete-glyph {
+  font-size: 4rem;
+  color: #d13a00;
+  margin-bottom: 1.5rem;
+  line-height: 1;
+}
+
+.svete-text {
+  font-family: monospace;
+  font-size: 1rem;
+  color: #555;
+}
+
 @media (max-width:1100px){.visible-phone{display:inherit !important;} .hidden-phone{display:none !important;} .hidden-desktop{display:inherit !important;} .visible-desktop{display:none !important;}}@media (min-width:1100px) and (max-width:1300px){.visible-tablet{display:inherit !important;} .hidden-tablet{display:none !important;} .hidden-desktop{display:inherit !important;} .visible-desktop{display:none !important ;}}hr{display:block;margin:1em 0;padding:0;height:1px;border:0;border-top:1px solid #ccc;border-bottom:1px solid #fff;}
 article img{max-width:100%;height:auto;border-width:0;vertical-align:middle;-ms-interpolation-mode:bicubic;}
 svg:not(:root){overflow:hidden;}
@@ -481,6 +508,40 @@ body {
   }
 }
 
+.svete-callout {
+  border-left: 4px solid #d13a00;
+  background: #fafafa;
+  padding: 1.5rem 2rem;
+  margin: 2.5rem 0;
+  font-size: 1.05rem;
+}
+
+.svete-callout p {
+  margin: 0.75rem 0;
+}
+
+.svete-emphasis {
+  font-weight: 600;
+  color: #333;
+}
+
+.svete-examples {
+  margin: 1.25rem 0;
+  font-family: monospace;
+  line-height: 1.8;
+}
+
+.k-glyph {
+  font-family: "Noto Serif Kannada", serif;
+  font-size: 1.4em;
+  color: #d13a00;
+}
+
+.k-glyph.strong {
+  font-size: 1.6em;
+}
+
+
 /* =====================================================
    SITE NAME STYLING - Make name larger than nav tabs
    ===================================================== */
@@ -492,4 +553,19 @@ body {
 
 .site-name a {
   font-weight: 700;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
 }

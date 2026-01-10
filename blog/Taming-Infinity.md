@@ -90,15 +90,11 @@ Each of these is a valid path. Someone smarter than me might make them work beau
 
 As I explored these options, a pattern emerged. I started calling it the **Babel Trilemma**[^3]:
 
-```
-          Short Address
-              /\
-             /  \
-            /    \
-           /      \
-          /________\
-   Invertibility    Full Coverage
-```
+<br>
+
+![](/images/post_images/babel_trilemma.png){:style="display:block; margin-left:auto; margin-right:auto"}
+
+<br>
 
 You can have at most two of three:
 
@@ -110,9 +106,13 @@ You can have at most two of three:
 
 Pick two.
 
--> If you want short addresses and full coverage, you lose invertibility. You'd need a lookup table the size of infinity. (And you'd be going up against the [pigeonhole principle](https://en.wikipedia.org/wiki/Pigeonhole_principle)). For example, the "seed" solution:
--> If you want short addresses and invertibility, you lose full coverage. You can only map a subset of possible texts.
--> If you want invertibility and full coverage, you lose short addresses. The address must encode enough information to reconstruct the content, which means it grows with the content space.
+* If you want short addresses and full coverage, you lose invertibility. You'd need a lookup table the size of infinity. (And you'd be going up against the [pigeonhole principle](https://en.wikipedia.org/wiki/Pigeonhole_principle)).
+
+
+* If you want short addresses and invertibility, you lose full coverage. You can only map a subset of possible texts.
+
+
+* If you want invertibility and full coverage, you lose short addresses. The address must encode enough information to reconstruct the content, which means it grows with the content space.
 
 I chose invertibility and full coverage. I gave up short addresses. I wanted true infinity, not some make-believe browser-friendly version.
 
@@ -124,14 +124,13 @@ The result: my addresses are hexadecimal strings up to ~1,590 characters long. N
 
 Before diving into the math, let me explain how addresses actually work in ಅಕ್ಷರ ಮಂಟಪ. I use two representations: **hierarchical** (for us pleb humans) and **raw** (for the backend).
 
-[IMAGE: address-system-diagram — showing the relationship between hierarchical and raw addresses]
 
-```
+<br>
 
-│  DISPLAY FORMAT:                                                           │
-│    "ಮಂದಿರದಹೆಸರು...".ಗೋಡೆ.ಪಟ್ಟಿ.ಪುಸ್ತಕ.ಪುಟ                                     │
-│     └──4 clusters──┘  1-4  1-5   1-32   1-410                            │
-```
+![](/images/post_images/address_differences.png){:style="display:block; margin-left:auto; margin-right:auto"}
+*Address Equivalence*
+
+<br>
 
 The hierarchical address looks like `mandira.gode.patti.pustaka.puta` (room.wall.shelf.book.page). It's readable, it maps to Borges' vision, and it gives you a sense of location in the library. 
 <br>
