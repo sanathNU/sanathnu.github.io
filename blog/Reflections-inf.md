@@ -6,6 +6,8 @@ title: Reflections from Infinity
 # Reflections from Infinity
 > _This is the final post in a series on ಅಕ್ಷರ ಮಂಟಪ (Akshara-Mantapa), my Kannada implementation of Borges' Library of Babel. We've walked through philosophy, linguistics, mathematics, and engineering. Now: what did I actually learn from all this?_
 
+> This post is text-only, by design.
+
 **The Series:**
 
 ೧. [The Dream of Ananta](/blog/web/Ananta-Intro.html): why infinity, why Kannada
@@ -22,9 +24,9 @@ title: Reflections from Infinity
 
 ## I. Finishing the Unfinishable
 
-There's a strange feeling that comes with "completing" a project about infinity. The library contains every possible 400-character Kannada text. It has always contained them. My contribution was building a window into something that existed before I wrote a single line of code.
+There’s a strange feeling that comes with ‘completing’ a project about infinity. The library contains every possible 400-character Kannada text. It has always contained them. What still surprises me is how mathematics can define these vast, precise spaces and give us, at least in principle, unbounded access to them.
 
-Borges understood this. His librarians didn't create the library; they wandered through it, searching for meaning in an ocean of noise. I've built a door, not a room.
+Borges understood this. His librarians didn’t create the library; they wandered through it, searching for meaning in an ocean of noise. In that sense, I don’t feel like a creator so much as someone who found a way in, and left a door open behind me.
 
 And yet. The code is pushed. The site is live. The blog posts are written. By any reasonable measure, the project is done. But infinity doesn't care about reasonable measures, and neither does the part of my brain that keeps thinking about weighted distributions and language-like randomness.
 
@@ -36,14 +38,8 @@ And yet. The code is pushed. The site is live. The blog posts are written. By an
 
 I wrote in Post 3 about why most pages look like gibberish: uniform distribution versus Zipf's law, the 2,000x gap between how often common graphemes appear in natural Kannada versus in the library. I won't repeat the mathematics here.
 
-But I will say: it's one thing to understand why the library is mostly noise. It's another to browse through it, page after page, seeing the shapes of a language you love rendered meaningless by pure randomness.
+There’s a melancholy to it. The library contains every Kannada poem that will ever be written, every insight, every prayer, every confession. But it also contains 57,324^400 pages of static for every page of meaning, and there’s nothing on the page itself to tell you which is which. You only recognize meaning if you arrive already knowing what you’re looking for.
 
-There's a melancholy to it. The library contains every Kannada poem that will ever be written. Every insight, every prayer, every confession. But it also contains 57,324^400 pages of static for every page of meaning. And you can't tell the difference by looking. You have to already know what you're searching for.
-
-> ಹುಡುಕುವವನಿಗೆ ಸಿಗುವುದು  
-> To the seeker, it is found.
-
-But you must be a seeker first. The library rewards intention, not wandering.
 
 ---
 
@@ -91,7 +87,7 @@ But these are dreams for future selves. For now, the library stands as it is.
 
 I keep returning to Basavanna's line: ಅರಿವೇ ಗುರು. Awareness itself is the teacher.
 
-The library taught me nothing I didn't bring to it. Every page I found meaningful, I found because I searched for it. The library doesn't generate insight; it reflects the insight you already have. It's a mirror the size of infinity, and most of what it shows you is noise.
+The library taught me nothing I didn't bring to it. Every page I found meaningful, I found because I searched for it. The library doesn’t generate insight so much as reflect what you bring to it. It's a mirror the size of infinity, and most of what it shows you is noise.
 
 But the act of building it taught me everything. The mathematics I had to learn, the linguistic structures I had to understand, the engineering problems I had to solve. The library was the excuse. The learning was the point.
 
