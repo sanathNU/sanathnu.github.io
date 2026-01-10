@@ -201,8 +201,6 @@
 
 <p>So I did what any reasonable person would do: I went down a rabbit hole of academic papers, cryptography blogs, and late-night whiteboard sessions.</p>
 
-<p>[IMAGE: aesthetic-rabbit-hole — something evocative of mathematical exploration, papers, late nights]</p>
-
 <hr />
 
 <h2 id="iii-what-i-needed">III. What I Needed</h2>
@@ -315,16 +313,16 @@
 
 <p><br /></p>
 
-<p><img src="/images/post_images/address_differences.png" alt="" style="display:block; margin-left:auto; margin-right:auto" />
+<p><img src="/images/post_images/address_differences.png" alt="" style="display:block; margin-left:auto; margin-right:auto" /><br />
 <em>Address Equivalence</em></p>
 
 <p><br /></p>
 
-<p>The hierarchical address looks like <code class="language-plaintext highlighter-rouge">mandira.gode.patti.pustaka.puta</code> (room.wall.shelf.book.page). It’s readable, it maps to Borges’ vision, and it gives you a sense of location in the library. 
+<p>The hierarchical address looks like <code class="language-plaintext highlighter-rouge">mandira.gode.patti.pustaka.puta</code> (room.wall.shelf.book.page). It’s readable, it maps to Borges’ vision, and it gives you a sense of location in the library. <br />
 <br /></p>
 
-<p>But here’s the thing: most of the infinity lives in the <strong>mandira</strong> (room) component.
-The mandira identifier alone can be around ~1,000 hexadecimal digits long, encoding the vast bulk of the address space. The wall, shelf, book, and page numbers are trivial by comparison, just small integers that subdivide each room.
+<p>But here’s the thing: most of the infinity lives in the <strong>mandira</strong> (room) component.<br />
+The mandira identifier alone can be around ~1,000 hexadecimal digits long, encoding the vast bulk of the address space. The wall, shelf, book, and page numbers are trivial by comparison, just small integers that subdivide each room.<br />
 <br /></p>
 
 <p>The raw address is the full hexadecimal string, what the bijection engine actually operates on. When you search for text, the engine returns a raw address; the frontend then parses it into the hierarchical format for display. When you browse to a hierarchical address, it gets packed back into raw form for computation. Two views of the same underlying number, one for humans and one for math.</p>
@@ -353,7 +351,7 @@ The mandira identifier alone can be around ~1,000 hexadecimal digits long, encod
 
 <p>No information lost. It’s also super cheap to compute.</p>
 
-<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHFMMd38uA9mazGumMTJLWtyIPsYCf1y4VrQ&amp;s" alt="" style="display:block; margin-left:auto; margin-right:auto" />
+<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHFMMd38uA9mazGumMTJLWtyIPsYCf1y4VrQ&amp;s" alt="" style="display:block; margin-left:auto; margin-right:auto" /><br />
 <em>Simple example of how mod arithmetic works for indexing</em></p>
 
 <h3 id="the-formula">The Formula</h3>
@@ -494,8 +492,8 @@ content = (address × I) mod N
 
 <p>Most pages look like noise. Dense, unreadable walls of random grapheme clusters. This is mathematically correct: meaningful text is vanishingly rare in the space of all possible strings. If you browse randomly, you’ll never find anything readable. The probability is too small to comprehend.</p>
 
-<p><br />
-<img src="/images/post_images/wall-of-text.png" alt="" style="display:block; margin-left:auto; margin-right:auto" />
+<p><br /><br />
+<img src="/images/post_images/wall-of-text.png" alt="" style="display:block; margin-left:auto; margin-right:auto" /><br />
 <em>Looks very… random?</em></p>
 
 <h3 id="why-this-happens-zipfs-law-and-uniform-distribution">Why This Happens: Zipf’s Law and Uniform Distribution</h3>
@@ -504,8 +502,8 @@ content = (address × I) mod N
 
 <p>This follows <a href="https://en.wikipedia.org/wiki/Zipf%27s_law">Zipf’s law</a>: a small number of clusters do most of the work, while the long tail of rare clusters appears infrequently.</p>
 
-<p><br />
-<img src="/images/post_images/empirical_kannada_top_100.png" alt="" style="display:block; margin-left:auto; margin-right:auto" />
+<p><br /><br />
+<img src="/images/post_images/empirical_kannada_top_100.png" alt="" style="display:block; margin-left:auto; margin-right:auto" /><br />
 <em>Generated plot from ಕನ್ನಡ wikipedia dump</em></p>
 
 <p><br /></p>
@@ -514,8 +512,8 @@ content = (address × I) mod N
 
 <p>But in the library, every cluster has equal probability. The distribution is perfectly uniform:</p>
 
-<p><br />
-<img src="/images/post_images/uniform_kannada_top_100.png" alt="" style="display:block; margin-left:auto; margin-right:auto" />
+<p><br /><br />
+<img src="/images/post_images/uniform_kannada_top_100.png" alt="" style="display:block; margin-left:auto; margin-right:auto" /><br />
 <em>Generated plot for uniform grapheme distribution. They’re not even in the same scale!</em></p>
 
 <p><br /></p>

@@ -44,7 +44,6 @@ There's a [theory page](https://libraryofbabel.info/theory.html) on his site tha
 
 So I did what any reasonable person would do: I went down a rabbit hole of academic papers, cryptography blogs, and late-night whiteboard sessions.
 
-[IMAGE: aesthetic-rabbit-hole — something evocative of mathematical exploration, papers, late nights]
 
 ---
 

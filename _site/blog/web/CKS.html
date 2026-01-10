@@ -175,7 +175,7 @@
 <h2 id="why-i-took-cks">Why I took CKS</h2>
 <p>Because clearly, one Kubernetes cert wasn’t enough self-inflicted pain.</p>
 
-<p>Let’s start with what I <em>thought</em> I was signing up for. I assumed CKS would be a continuation of CKA, something in the lines of “now that you can deploy K8s clusters, let’s secure it like a paranoid ex-NSA agent.” 
+<p>Let’s start with what I <em>thought</em> I was signing up for. I assumed CKS would be a continuation of CKA, something in the lines of “now that you can deploy K8s clusters, let’s secure it like a paranoid ex-NSA agent.” <br />
 But no. What it really taught me was how to apply some best practices from the Linux hardening playbook — <a href="https://apparmor.net/">AppArmor</a>, <a href="https://en.wikipedia.org/wiki/Seccomp">seccomp</a>, file permissions, and audit logs. Most of which I’d already seen before… in a different context.</p>
 
 <p>Don’t get me wrong, I enjoyed this course, I really did. I didn’t take <a href="https://kodekloud.com/courses/certified-kubernetes-security-specialist-cks">Mumshad’s CKS course</a> (in retrospect, maybe I should have) But this godsend <a href="https://www.youtube.com/watch?v=d9xfB5qaOfg">video</a> of the Killer Shell’s online course saved my day. I think I didn’t have as much practice as I wanted, but yeah, somehow I was able to scrap through.</p>
@@ -187,8 +187,8 @@ But no. What it really taught me was how to apply some best practices from the L
 
 <hr />
 <h2 id="what-surprised-me">What Surprised Me</h2>
-<p>Not all surprises are pleasant, but hey, at least they were consistent.
-CKS requires CKA as a prerequisite, but I never bothered revisiting those old, practically unused (at least for me) CKA concepts. So, when it was time to dive into CKS, I ended up spending three hours just doing a rundown of the documentation. <br />I know many people manage to knock out both certifications within a few months, so it probably makes more sense for them. If you’re interested in my <a href="https://sanathnu.github.io/blogs/web/CKA.html">previous views</a> on CKA, check it out.<br />
+<p>Not all surprises are pleasant, but hey, at least they were consistent.<br />
+CKS requires CKA as a prerequisite, but I never bothered revisiting those old, practically unused (at least for me) CKA concepts. So, when it was time to dive into CKS, I ended up spending three hours just doing a rundown of the documentation. <br />I know many people manage to knock out both certifications within a few months, so it probably makes more sense for them. If you’re interested in my <a href="https://sanathnu.github.io/blogs/web/CKA.html">previous views</a> on CKA, check it out.<br /><br />
 That said, when it comes to CKS itself:</p>
 <ul>
   <li><strong>Security Principles?</strong> Almost entirely assumed knowledge. If you’ve spent any time with Linux permissions, firewall rules, or container security basics, you’re already 80% there.</li>
@@ -204,10 +204,10 @@ That said, when it comes to CKS itself:</p>
 
 <p>I expected this to be about learning about threat modelling, defence in depth, compartmentalisation , maybe maybe some read teaming. What I got instead was….an applied patchwork.</p>
 
-<p>Case in point: one of the exam scenarios pulls out the same tired example of the <a href="https://www.wired.com/story/cryptojacking-tesla-amazon-cloud/">Tesla Hack</a>. I’ve seen that example so many times (while studying) it might as well be part of the CKS welcome banner. In any halfway decent org today, you’re not just flipping admin access like a switch. <strong>You’re filing a Jira ticket, then waiting three business days while the approval chain makes its slow pilgrimage through the temple of compliance.</strong> RBAC is standard hygiene now, not some cutting-edge revelation.
+<p>Case in point: one of the exam scenarios pulls out the same tired example of the <a href="https://www.wired.com/story/cryptojacking-tesla-amazon-cloud/">Tesla Hack</a>. I’ve seen that example so many times (while studying) it might as well be part of the CKS welcome banner. In any halfway decent org today, you’re not just flipping admin access like a switch. <strong>You’re filing a Jira ticket, then waiting three business days while the approval chain makes its slow pilgrimage through the temple of compliance.</strong> RBAC is standard hygiene now, not some cutting-edge revelation.<br />
 <img src="/images/resources/CKS/telsa_hack.png" alt="Tesla hack!" /></p>
 
-<p><br />
+<p><br /><br />
 The certification  isn’t about <strong>understanding security</strong> in the context of cloud (of which k8s is a huge part now), but about applying pre-baked controls in a time-boxed fashion. You don’t need to <em>understand</em> security concepts but just need to memorize which command disables privilege escalation and how to configure a PodSecurityPolicy (or whatever’s <a href="https://kubernetes.io/blog/2021/04/06/podsecuritypolicy-deprecation-past-present-and-future/">replacing it</a> this week).<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
 
 <p>Also: <strong>time limits are brutal</strong>. You don’t really have the luxury of pausing to understand why something works. I realized this in the trial exam on <a href="https://killercoda.com/killer-shell-cks">Killer Koda</a> which gave me a reality check. You apply what you practised, and you move on.</p>
@@ -238,7 +238,7 @@ The certification  isn’t about <strong>understanding security</strong> in the 
   <li>Don’t look for “aha!” moments. Look for “oh crap, better fix this fast.”</li>
 </ul>
 
-<p>Would I do it again? Probably.<br />
+<p>Would I do it again? Probably.  <br />
 Would I recommend it to someone expecting a security deep dive? Absolutely not, unless you believe watching cricket highlights is the same as experiencing a full Test match.</p>
 
 <hr />
@@ -246,7 +246,7 @@ Would I recommend it to someone expecting a security deep dive? Absolutely not, 
 <h4 id="mindmap">Mindmap</h4>
 <p>Here’s a very crude mindmap of what notes I summarized right before the exam. Might be helpful for visual folks.</p>
 
-<p><img src="/images/resources/CKS/CKS_mindmap.png" alt="I don't know how Obsidian canvas works man, it's just weird! " />
+<p><img src="/images/resources/CKS/CKS_mindmap.png" alt="I don't know how Obsidian canvas works man, it's just weird! " /><br />
 If the font is too hard to read, download the image maybe?</p>
 
 <h4 id="github-links">Github links</h4>

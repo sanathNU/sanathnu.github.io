@@ -55,6 +55,8 @@ permalink:   /:categories/:title
 
 
 kramdown:
+  input: GFM
+  hard_wrap: true
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
