@@ -1,0 +1,282 @@
+/* ==========================================================================
+   CV Custom Styles
+   ========================================================================== */
+
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Reset/Base for CV Container */
+.cv-container {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #333;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+
+  a {
+    color: #2563eb;
+    text-decoration: none;
+    transition: color 0.2s;
+
+    &:hover {
+      color: #1e40af;
+      text-decoration: underline;
+    }
+  }
+}
+
+/* Header Section */
+.cv-header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #f3f4f6;
+  padding-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.cv-title h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0;
+  color: #111827;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.cv-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.cv-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #f3f4f6;
+  /* Light gray bg */
+  color: #374151;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background-color: #e5e7eb;
+    transform: translateY(-1px);
+    color: #111827;
+  }
+}
+
+/* Grid Layout for Main Content */
+.cv-grid {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  /* Main content | Sidebar */
+  /* Main content | Sidebar */
+  gap: 3rem;
+  align-items: start;
+  /* Align top */
+}
+
+/* Vertical Divider for Sidebar */
+aside {
+  border-left: 1px solid #e5e7eb;
+  padding-left: 2rem;
+  height: 100%;
+}
+
+@media (max-width: 850px) {
+  .cv-grid {
+    grid-template-columns: 1fr;
+    /* Stack on smaller screens */
+    gap: 2rem;
+  }
+
+  /* Remove sidebar border on mobile */
+  aside {
+    border-left: none;
+    padding-left: 0;
+    border-top: 1px solid #e5e7eb;
+    padding-top: 2rem;
+  }
+
+
+  .cv-header-section {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}
+
+/* Section Styles */
+.cv-section {
+  margin-bottom: 2.5rem;
+
+  h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #111827;
+    border-left: 4px solid #2563eb;
+    /* Accent border */
+    padding-left: 0.75rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  /* Divider between sections */
+  border-bottom: 2px solid #9ca3af;
+  /* Even darker (gray-400) */
+  /* Darker 300 gray */
+  padding-bottom: 2.5rem;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+/* Job/Project Item */
+.cv-item {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  background-color: transparent;
+  width: 100%;
+  border-bottom: 1px solid #9ca3af;
+  /* Even darker (gray-400) */
+  /* Darker 300 gray */
+  /* Darker Divider */
+
+  &:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+}
+
+.cv-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.25rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.cv-header-left {
+  flex: 1;
+  padding-right: 1rem;
+}
+
+.cv-role {
+  font-size: 1.125rem;
+  font-weight: 700;
+  /* Bolder as requested */
+  color: #111827;
+  /* Darker black */
+  display: inline;
+}
+
+.cv-company {
+  font-size: 1rem;
+  color: #4b5563;
+  font-weight: 500;
+  display: inline;
+}
+
+.cv-date {
+  font-size: 0.875rem;
+  color: #6b7280;
+  font-feature-settings: "tnum";
+  font-variant-numeric: tabular-nums;
+}
+
+
+.cv-details {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #374151;
+
+  ul {
+    margin: 0.5rem 0 0 0;
+    padding-left: 1.5rem;
+    /* Ensure enough space for bullets */
+    list-style-type: disc;
+    /* Force bullets */
+  }
+
+  li {
+    margin-bottom: 0.35rem;
+    padding-left: 0.2rem;
+  }
+}
+
+
+/* Skills & Tags */
+.skill-group {
+  margin-bottom: 1.5rem;
+}
+
+.skill-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #4b5563;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skill-tag {
+  background-color: #eff6ff;
+  color: #1d4ed8;
+  padding: 0.25rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+/* Compact Lists for Sidebar */
+.sidebar-item {
+  margin-bottom: 2rem;
+  /* Increased from 1.5rem */
+  padding-bottom: 0.5rem;
+  /* Little breathing room */
+
+  h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #111827;
+    margin: 0 0 0.25rem 0;
+  }
+
+  p,
+  li {
+    font-size: 0.9rem;
+    color: #4b5563;
+    margin: 0;
+    line-height: 1.5;
+  }
+}
+
+.sidebar-degree {
+  font-size: 0.95rem;
+  font-weight: 700;
+  /* Bold degree */
+  color: #1f2937;
+  margin-bottom: 0.1rem;
+}
+
+.sidebar-sub {
+  font-size: 0.85rem;
+  color: #6b7280;
+  font-style: italic;
+  margin-bottom: 0.25rem;
+}

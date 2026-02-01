@@ -1,0 +1,170 @@
+---
+layout: page
+---
+<!-- 
+  CV Layout Template
+  Handles the HTML structure for the 2-column CV design.
+  Main content (Experience, Projects) is rendered from YAML data.
+  Sidebar content (Education, Skills, etc.) is rendered from YAML data.
+-->
+
+<link rel="stylesheet" href="/assets/css/cv.css">
+
+<div class="cv-container">
+
+  <!-- Header -->
+  <header class="cv-header-section" style="justify-content: flex-end; padding-bottom: 1rem; border-bottom: none;">
+    <!-- Name/Tagline removed as per user request -->
+    <div class="cv-links">
+      {% for link in page.cv_download_links %}
+      <a href="{{ link.url }}" class="cv-btn">{{ link.label }}</a>
+      {% endfor %}
+    </div>
+  </header>
+
+  <div class="cv-grid">
+
+    <!-- LEFT COLUMN: Main Experience & Projects (YAML Data) -->
+    <main>
+
+      <!-- Experience Section -->
+      {% if page.experience %}
+      <section class="cv-section">
+        <h2>Experience</h2>
+
+        {% for job in page.experience %}
+        <!-- If it's a section header (e.g. Software Engineering) -->
+        {% if job.section_title %}
+        <h3
+          style="font-size: 1.1rem; color: #4b5563; margin-top: 2rem; margin-bottom: 1rem; border-bottom: 1px solid #e5e7eb; padding-bottom: 0.5rem;">
+          {{ job.section_title }}</h3>
+        {% else %}
+        <div class="cv-item">
+          <div class="cv-item-header">
+            <div class="cv-header-left">
+              <span class="cv-role">{{ job.role }}</span>
+              <span class="cv-company"> | {{ job.company }}</span>
+            </div>
+            <div class="cv-date">{{ job.date }}</div>
+          </div>
+          <div class="cv-details">
+            <ul>
+              {% for detail in job.details %}
+              <li>{{ detail }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+
+      </section>
+      {% endif %}
+
+      <!-- Projects Section -->
+      {% if page.projects %}
+      <section class="cv-section">
+        <h2>Projects</h2>
+
+        {% for project in page.projects %}
+        <div class="cv-item">
+          <div class="cv-item-header">
+            <div class="cv-role">{{ project.name }}</div>
+          </div>
+          <div class="cv-details">
+            {% if project.details %}
+            <ul>
+              {% for detail in project.details %}
+              <li>{{ detail }}</li>
+              {% endfor %}
+            </ul>
+            {% else %}
+            {{ project.description }}
+            {% endif %}
+
+            {% if project.stack %}
+            <div style="margin-top: 0.5rem;">
+              <span style="font-size: 0.85rem; color: #6b7280; font-weight: 500;">Stack: {{ project.stack }}</span>
+            </div>
+            {% endif %}
+          </div>
+        </div>
+        {% endfor %}
+
+      </section>
+      {% endif %}
+
+    </main>
+
+    <!-- RIGHT COLUMN: Sidebar (YAML Data) -->
+    <aside>
+
+      <!-- Education -->
+      {% if page.sidebar.education %}
+      <section class="cv-section">
+        <h2>Education</h2>
+        {% for edu in page.sidebar.education %}
+        <div class="sidebar-item">
+          <div class="sidebar-degree">{{ edu.degree }}</div>
+          <h3>{{ edu.institution }}</h3>
+          <div class="sidebar-sub">{{ edu.years }}</div>
+          {% if edu.gpa %}
+          <div style="font-size: 0.9rem; font-weight: 500; margin-top: 0.25rem;">{{ edu.gpa }}</div>
+          {% endif %}
+          {% if edu.details %}
+          <p style="font-size: 0.85rem; margin-top: 0.25rem;">{{ edu.details }}</p>
+          {% endif %}
+        </div>
+        {% endfor %}
+      </section>
+      {% endif %}
+
+      <!-- Skills -->
+      {% if page.sidebar.skills %}
+      <section class="cv-section">
+        <h2>Skills</h2>
+        {% for group in page.sidebar.skills %}
+        <div class="skill-group">
+          <div class="skill-label">{{ group.category }}</div>
+          <div class="skill-tags">
+            {% for skill in group.items %}
+            <span class="skill-tag">{{ skill }}</span>
+            {% endfor %}
+          </div>
+        </div>
+        {% endfor %}
+      </section>
+      {% endif %}
+
+      <!-- Awards -->
+      {% if page.sidebar.awards %}
+      <section class="cv-section">
+        <h2>Awards & Certs</h2>
+        <div class="sidebar-item">
+          <ul style="padding-left: 1rem; margin: 0;">
+            {% for award in page.sidebar.awards %}
+            <li>{{ award }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </section>
+      {% endif %}
+
+      <!-- Languages -->
+      {% if page.sidebar.languages %}
+      <section class="cv-section">
+        <h2>Languages</h2>
+        <div class="sidebar-item">
+          <ul style="padding-left: 1rem; margin: 0;">
+            {% for lang in page.sidebar.languages %}
+            <li>{{ lang }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </section>
+      {% endif %}
+
+    </aside>
+
+  </div>
+</div>
