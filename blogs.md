@@ -5,6 +5,7 @@ title: Blog
 ---
 
 ### Technical Articles
+- [The Pleasures of Reinforcement Learning](/blog/web/Pleasures-of-RL.html)
 - [Akshara-Mantapa I – The Dream of Ananta](/blog/web/Ananta-Intro.html)
 - [Akshara-Mantapa II – Exploring the Infinite Libraries](/blog/web/Exploring-Infinity.html)
 - [Akshara-Mantapa III – Taming Infinity](/blog/web/Taming-Infinity.html)
