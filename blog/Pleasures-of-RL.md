@@ -14,10 +14,13 @@ title: The Pleasures of Reinforcement Learning
 > This post gets technical, and a little too wordy for the average reader. It's a personal rant about learning RL, not a tutorial. Don't try to understand every detail, just get a feel for it.
 
 
-I started learning reinforcement learning this semester because I wanted to understand what people actually meant when they said RLHF. It's one of those terms the internet wore out. I knew about the human feedback part, but the RL part? That I wanted to see for myself.
+I started learning reinforcement learning during my master's at Northeastern because I wanted to understand what people actually meant when they said RLHF. It's one of those terms the internet wore out. I knew about the human feedback part, but the RL part? That I wanted to see for myself.
 
+<br>
 
 My prof [Chris Amato](https://www.ccs.neu.edu/home/camato/) said "RLHF is not real RL" in class, and coming from an ECE background, I felt that immediately. The RL I care about is feedback loops and reward design, control systems thinking, not fine-tuning a language model to sound nicer.
+
+<br>
 
 LLMs always felt intellectually icky to me. A model trained on a massive dataset somehow learning what Hamlet feels like? That's finding a needle in a haystack. I don't have a rigorous objection, it just never sat right.
 
@@ -27,7 +30,7 @@ I picked up the [Hugging Face RL course](https://huggingface.co/learn/deep-rl-co
 
 <br>
 
-LunarLander was the moment. I'd seen impressive demos before, MuJoCo Humanoid, Cheetah, the usual. But LunarLander was where I actually understood what was happening and where it broke. Watching an agent figure out boosters from nothing, on my laptop, in a few hours? That was wild. If someone deeply into RL research did this course, they'd probably be more scientific about it, tweaking equations, probing failure modes, trying to understand exactly why things break. I was just here for the paradigm shift.
+[LunarLander](https://gymnasium.farama.org/environments/box2d/lunar_lander/) was the moment. I'd seen impressive demos before, MuJoCo Humanoid, Cheetah, the usual. But LunarLander was where I actually understood what was happening and where it broke. Watching an agent figure out boosters from nothing, on my laptop, in a few hours? That was wild. If someone deeply into RL research did this course, they'd probably be more scientific about it, tweaking equations, probing failure modes, trying to understand exactly why things break. I was just here for the paradigm shift.
 
 <br>
 
@@ -36,7 +39,7 @@ _at least the parking was done right!_
 
 <br>
 
-The thing that stuck with me was the reproducibility. Most ideas in CS feel abstract to me, plucked right out of Plato's world. You learn them, you accept them, you move on. But here I could tweak something, rerun it, and observe the difference. Something plucked from math-land behaving like a real experiment. That was new.
+The thing that really got me was the reproducibility. A lot of CS ideas, at least to me, live in this weird Platonic realm. You learn some theorem, some algorithm, nod along, maybe prove a thing, and move on with life. But here? I could tweak something, rerun it, and actually see behavior change. Some object pulled straight out of math-land suddenly behaving like an experiment. That felt… strangely real.
 
 <br>
 
@@ -93,7 +96,11 @@ This is where the clean picture falls apart.
 
 <br>
 
-For our course project, me and my teammate built CGE-RL, a consensus-gated ensemble system (that's where the CGE comes from). The idea was inspired by dual-process theory: pair two algorithmically diverse agents (SAC and PPO), measure how much they disagree using divergence metrics, and gate between fast consensus actions (System 1) and a deliberate meta-controller (System 2) when they disagree. It's a nice idea. It's scientific. We had the architecture, the environments, the evaluation pipeline.
+For our course project, me and my teammate built CGE-RL, a consensus-gated ensemble system (that's where the CGE comes from). The idea was inspired by dual-process theory: pair two algorithmically diverse agents (SAC and PPO), measure how much they disagree using divergence metrics, and gate between fast consensus actions (System 1) and a deliberate meta-controller (System 2) when they disagree.
+
+<br>
+
+Pretty cool idea, honestly. Very cognitive-science-meets-RL coded. We had the architecture, environments, evaluation pipeline, nice diagrams, the whole thing.
 
 <br>
 
@@ -118,7 +125,11 @@ _robot heart attack_
 
 <br>
 
-The model isn't stupid. The idea isn't bad. It's that RL is fragile in ways that aren't about logic errors. Lady luck chose the wrong randomness, or your threshold is off by two orders of magnitude, or the thing that's supposed to be learning has no leverage over the thing that matters. That's a different kind of frustration than most of ML.
+Yeah. That's our model on Humanoid. We don't talk about Humanoid.
+
+<br>
+
+The model isn't stupid. The idea isn't bad. It's that RL is fragile in ways that aren't about logic errors. Lady luck chose the wrong randomness, or your threshold is off by two orders of magnitude, or the thing that's supposed to be learning has no leverage over the thing that matters.
 
 <br>
 
@@ -138,6 +149,10 @@ And it's going to play a massive role in robotics. Earlier models didn't have th
 
 <br>
 
+I got this feeling reading The Fourth Age too.
+
+<br>
+
 I don't want to be the guy during the nuclear age saying "I don't see a practical application." There's a lot of growth happening, and it's happening fast. It feels like we're in a new space age. Either we die exploring, or we find ourselves on the shores of a strange new world.
 
 ## What It All Means
@@ -150,11 +165,11 @@ The pleasures of reinforcement learning aren't what I expected. It's not the cle
 
 <br>
 
-I believe Hassabis. I think RL is core to whatever intelligence turns out to be. Not a side technique, not a fine-tuning trick. The actual mechanism by which knowledge becomes behavior.
+I believe Hassabis. I think RL is core to whatever intelligence turns out to be. Not a side technique, not a fine-tuning trick. The thing that turns knowing stuff into actually doing stuff.
 
 <br>
 
-If you haven't seen it, [Ilya's recent Dwarkesh interview](https://www.youtube.com/watch?v=aR20FWCCjAs) is worth your time.
+If you haven't seen it, [Ilya's recent Dwarkesh interview](https://www.youtube.com/watch?v=aR20FWCCjAs) is worth your time. It's got some great memes!
 
 <br>
 
