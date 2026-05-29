@@ -14,7 +14,7 @@ I'm a Master's student in Computer Science at **[Northeastern University](https:
 
 <br>
 
-I'm currently interning at **[Amazon Web Services](https://aws.amazon.com/)** on the **Aurora Open Source Engines team** in California, where I'm building an AI framework for third-party tool testing across Aurora's open source database engines.
+I'm currently interning at **[Amazon Web Services](https://aws.amazon.com/)** on the **Aurora Open Source Engines team**, where I'm building an AI framework for third-party tool testing across Aurora's open source database engines.
 
 <br>
 
