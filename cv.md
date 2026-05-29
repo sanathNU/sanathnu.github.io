@@ -28,6 +28,12 @@ experience:
 
   - section_title: "Software Engineering"
 
+  - role: "Software Development Engineer Intern"
+    company: "Amazon Web Services (AWS) — Aurora Open Source Engines"
+    date: "May 2026 – Present"
+    details:
+      - "Developing an <strong>AI framework for third-party tool testing</strong> across Aurora's open source engines."
+
   - role: "Cloud Engineer"
     company: "Hewlett Packard Enterprise (HPE)"
     date: "Aug 2023 – Aug 2025"
