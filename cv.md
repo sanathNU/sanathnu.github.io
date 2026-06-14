@@ -8,7 +8,22 @@ cv_download_links:
     url: "/assets/pdf/Resume.pdf"
 
 experience:
-  - section_title: "Research & Development"
+  - section_title: "Research Experience"
+  - role: "Graduate Assistant"
+    company: "Northeastern University — Khoury College (Advisor: Prof. Zhengzhong Jin)"
+    date: "Feb 2026 – Present"
+    details:
+      - "Studying <strong>lattice-based cryptographic proof systems</strong> in the Cryptography and Privacy Group at Khoury College."
+      - "Investigating <strong>verifiable computation for LoRA (Low-Rank Adaptation) inference</strong>, focusing on zero-knowledge proof constructions."
+
+  - role: "Research Participant"
+    company: "Wolfram Winter School 2026 (Mentor: Nik Murzin)"
+    date: "Jan 2026"
+    details:
+      - "Completed an original research project, <strong>“From Repetition to Topology: The Geometry of Error Correction,”</strong> tracing the geometric foundations of error correction from classical Hamming distance through quantum stabilizer codes to Kitaev's toric code."
+      - "Built interactive <strong>Wolfram Language notebooks</strong> implementing 3-qubit bit-flip/phase-flip codes, stabilizer syndrome extraction, and toric code lattice visualizations with anyon-pair error detection."
+      - "Selected for <strong>Wolfram Community Staff Picks</strong> and awarded the <strong>Featured Contributor Badge</strong>."
+
   - role: "Research & Development Intern"
     company: "CARES Group, IIT Dharwad"
     date: "Oct 2022 – May 2023"
@@ -29,10 +44,11 @@ experience:
   - section_title: "Software Engineering"
 
   - role: "Software Development Engineer Intern"
-    company: "Amazon Web Services (AWS) — Aurora Open Source Engines"
+    company: "Amazon Web Services (AWS) · Palo Alto, CA"
     date: "May 2026 – Present"
     details:
-      - "Developing an <strong>AI framework for third-party tool testing</strong> across Aurora's open source engines."
+      - "Building <strong>automated testing infrastructure</strong> for managed database services."
+      - "Designing <strong>agent-driven workflows</strong> for test generation and validation across distributed systems."
 
   - role: "Cloud Engineer"
     company: "Hewlett Packard Enterprise (HPE)"

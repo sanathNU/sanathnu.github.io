@@ -14,7 +14,11 @@ I'm a Master's student in Computer Science at **[Northeastern University](https:
 
 <br>
 
-I'm currently interning at **[Amazon Web Services](https://aws.amazon.com/)** on the **Aurora Open Source Engines team**, where I'm building an AI framework for third-party tool testing across Aurora's open source database engines.
+I'm currently interning at **[Amazon Web Services](https://aws.amazon.com/)** on the **Aurora Database team** in Palo Alto.
+
+<br>
+
+Alongside that, I was a Research Participant at the **[Wolfram Institute](https://www.wolframinstitute.org/) Winter School 2026**, where I completed *“From Repetition to Topology: The Geometry of Error Correction,”* tracing error correction from classical Hamming distance through quantum stabilizer codes to Kitaev's toric code — earning Wolfram Community Staff Picks and the Featured Contributor Badge.
 
 <br>
 
