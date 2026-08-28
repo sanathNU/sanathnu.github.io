@@ -14,19 +14,15 @@ I'm a Master's student in Computer Science at **[Northeastern University](https:
 
 <br>
 
-I'm currently interning at **[Amazon Web Services](https://aws.amazon.com/)** on the **Aurora Database team** in Palo Alto.
+I interned at **[Amazon Web Services](https://aws.amazon.com/)**, where I worked on developing agentic testing systems.
 
 <br>
 
-Alongside that, I was a Research Participant at the **[Wolfram Institute](https://www.wolframinstitute.org/) Winter School 2026**, where I completed *“From Repetition to Topology: The Geometry of Error Correction,”* tracing error correction from classical Hamming distance through quantum stabilizer codes to Kitaev's toric code — earning Wolfram Community Staff Picks and the Featured Contributor Badge.
+Alongside that, I was a Research Participant at the **[Wolfram Institute](https://www.wolframinstitute.org/) Winter School 2026**, completing *”From Repetition to Topology: The Geometry of Error Correction,”* which earned Wolfram Community Staff Picks and the Featured Contributor Badge.
 
 <br>
 
 Before grad school, I spent two years as a Cloud Developer at **[Hewlett Packard Enterprise](https://www.hpe.com/in/en/home.html)**, building out Kubernetes-based infrastructure, zero-trust identity systems, and AI deployment pipelines. And before that, I studied electronics and communication engineering, which is where I first got into things like FFTs, hardware acceleration, and number theory.
-
-<br>
-
-My interests sit at the intersection of cryptography, distributed systems, and systems infrastructure — especially the challenge of translating theoretical security guarantees into deployable, large-scale systems.
 
 <br>
 
