@@ -45,7 +45,7 @@ experience:
 
   - role: "Software Development Engineer Intern"
     company: "Amazon Web Services (AWS) · Palo Alto, CA"
-    date: "May 2026 – Present"
+    date: "May 2026 – Aug 2026"
     details:
       - "Building <strong>automated testing infrastructure</strong> for managed database services."
       - "Designing <strong>agent-driven workflows</strong> for test generation and validation across distributed systems."
