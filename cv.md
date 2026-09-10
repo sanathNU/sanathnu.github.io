@@ -47,8 +47,9 @@ experience:
     company: "Amazon Web Services (AWS) · Palo Alto, CA"
     date: "May 2026 – Aug 2026"
     details:
-      - "Building <strong>automated testing infrastructure</strong> for managed database services."
-      - "Designing <strong>agent-driven workflows</strong> for test generation and validation across distributed systems."
+      - "Built an <strong>automated integration-testing framework</strong> for Amazon Aurora (MySQL-compatible) from the ground up, generating and validating third-party workloads against distributed database clusters."
+      - "Implemented <strong>differential-testing pipelines</strong> against reference databases to surface correctness discrepancies across query-execution paths."
+      - "Designed <strong>agent-orchestration workflows</strong> to automate test generation, execution, and validation, cutting manual effort in large-scale compatibility testing."
 
   - role: "Cloud Engineer"
     company: "Hewlett Packard Enterprise (HPE)"
@@ -86,7 +87,7 @@ sidebar:
       degree: "MS in Computer Science"
       years: "Aug 2025 – May 2027 (Exp)"
       gpa: "GPA: 4.0"
-      details: "Coursework: PDP, Algorithms, RL, DB Systems"
+      details: "Coursework: Foundations of Cryptography (PhD), Advanced Algorithms, Reinforcement Learning,Principles of Programming Design, Databases"
     - institution: "BMS College of Engineering"
       degree: "BE (Hons.) Electronics & Comm."
       years: "2019 – 2023"
@@ -94,7 +95,7 @@ sidebar:
 
   skills:
     - category: "Languages"
-      items: ["Python", "Rust", "Go", "C", "C++", "Java", "Verilog"]
+      items: ["Python", "Rust", "Go", "C++", "Java"]
     - category: "Cloud"
       items: ["AWS", "GCP", "Kubernetes", "OpenShift", "Docker"]
     - category: "Security & Tools"
@@ -106,7 +107,6 @@ sidebar:
     - "Certified Kubernetes Administrator (CKA)"
     - "Certified Kubernetes Security Specialist (CKS)"
     - "VLSI Design Contest 2023 Top 15 Finalist"
-    - "NPTEL Believer Award"
     - "Best Project Award (BMSCE)"
 
   languages:
