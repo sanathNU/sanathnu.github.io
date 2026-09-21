@@ -41,6 +41,15 @@ experience:
       - "Used <strong>Tesseract with ABSA-PyTorch</strong>, outperforming EasyOCR by ~33% accuracy."
       - "Dockerized the pipeline for scalable internal deployment."
 
+  - section_title: "Teaching"
+
+  - role: "Teaching Assistant — CS 3800: Automata and Formal Languages"
+    company: "Northeastern University — Khoury College"
+    date: "Sep 2026 – Present"
+    details:
+      - "Supporting instruction in <strong>automata theory, formal languages, and computability</strong>: regular and context-free languages, Turing machines, and decidability."
+      - "Holding office hours, guiding students through proof techniques, and grading problem sets and exams."
+
   - section_title: "Software Engineering"
 
   - role: "Software Development Engineer Intern"
